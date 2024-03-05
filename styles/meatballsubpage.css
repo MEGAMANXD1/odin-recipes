@@ -5,5 +5,22 @@ body {
 
 img {
     width: 800px;
+}
 
+div.ingredientslist {
+    text-align: center;
+}
+
+ul.ingredients {
+    display: inline-block;
+    text-align: left;
+}
+
+div.stepslist {
+    text-align: center;
+}
+
+ol.stepsinstructions {
+    display: inline-block;
+    text-align: left;
 }
