@@ -3,11 +3,40 @@ body{
     text-align: center;
 }
 
+.title {
+    background-color: blue;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    margin: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 2px solid black;
+}
+
 div.recipeslist {
     text-align: center;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 2px solid black;
 }
 
 ul.recipes {
     display: inline-block;
+    color: white;
     text-align: left;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.link {
+    color: white;
+}
+
+a.link:hover {
+    color: black;
 }
