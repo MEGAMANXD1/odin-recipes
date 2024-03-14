@@ -18,7 +18,7 @@ a.homepagelink {
     font-weight: bold;
 }
 
-a.link:hover {
+a.homepagelink:hover {
     color: black;
 }
 
