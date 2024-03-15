@@ -1,5 +1,4 @@
 body {
-    border: 2px solid black;
     background-color: blue;
     margin: auto;
     text-align: center;
@@ -35,9 +34,16 @@ img {
 
 div.ingredientslist {
     text-align: center;
+    color: white;
 }
 
 ul.ingredients {
+    border: 2px solid black;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
     text-align: left;
 }
@@ -47,6 +53,13 @@ div.stepslist {
 }
 
 ol.stepsinstructions {
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
     text-align: left;
 }
